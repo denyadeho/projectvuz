@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 400px;
+    height: 400px;
+    clip-path: ellipse();
+
+}
+
+.text {
+    width: 400px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 200px;
+    height: 400px;
+}
+.header {
+    font-size: 34px;
+    font-weight: bold;
+}
+.text {
+    font-size: 20px;
+    margin-top: 70px;
+}

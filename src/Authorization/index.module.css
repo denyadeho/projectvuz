@@ -1,0 +1,55 @@
+html, body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 170px;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0 35px 0 14px;
+    font-size: 14px;
+    margin-top: 16px !important;
+
+}
+button {
+    margin-top: 20px;
+    width: 100px;
+    float: right;
+    color: #7f8084;
+    border: 1px solid #22272d;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+h1 {
+    float: left;
+    color: black;
+    font-size: 1.3em;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.error {
+    color: red;
+    display: flex;
+    justify-content: flex-start;
+    width: 220px;
+    margin-top: 5px;
+}
+.registration {
+    color: blue;
+    margin-top: 15px;
+    cursor: pointer;
+}
